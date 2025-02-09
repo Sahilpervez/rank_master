@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/core/core.dart';
-import 'package:flutter_riverpod_base/src/models/user.dart';
-import 'package:flutter_riverpod_base/src/utils/config.dart';
+import 'package:rank_master/src/core/core.dart';
+import 'package:rank_master/src/models/user.dart';
+import 'package:rank_master/src/utils/config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final sharedPrefsRepoProvider = Provider<SharedPrefsRepo>((ref) => SharedPrefsRepo());

@@ -1,6 +1,6 @@
-import 'package:flutter_riverpod_base/src/res/base.dart';
+import 'package:rank_master/src/res/base.dart';
 
 class EndPoints {
-  static const _base = BasePaths.baseUrl;
-  static const upload = "$_base/storage/upload";
+  static final String _base = BasePaths.baseUrl;
+  static String upload = "$_base/storage/upload";
 }

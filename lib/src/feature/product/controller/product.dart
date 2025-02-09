@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/feature/product/repository/product.dart';
-import 'package:flutter_riverpod_base/src/feature/product/res/messages.dart';
-import 'package:flutter_riverpod_base/src/models/product.dart';
-import 'package:flutter_riverpod_base/src/utils/config.dart';
-import 'package:flutter_riverpod_base/src/utils/snackbar_service.dart';
+import 'package:rank_master/src/feature/product/repository/product.dart';
+import 'package:rank_master/src/feature/product/res/messages.dart';
+import 'package:rank_master/src/models/product.dart';
+import 'package:rank_master/src/utils/config.dart';
+import 'package:rank_master/src/utils/snackbar_service.dart';
 
 final productControllerProvider = Provider((ref) {
   final repo = ref.watch(productRepoProvider);

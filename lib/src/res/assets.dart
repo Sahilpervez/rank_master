@@ -1,4 +1,4 @@
-import 'package:flutter_riverpod_base/src/res/base.dart';
+import 'package:rank_master/src/res/base.dart';
 
 
 /// Contains all the paths of image used across the project.

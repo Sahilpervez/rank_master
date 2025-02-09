@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_base/src/feature/product/controller/product.dart';
-import 'package:flutter_riverpod_base/src/feature/product/view/widgets/product_list_item.dart';
+import 'package:rank_master/src/feature/product/controller/product.dart';
+import 'package:rank_master/src/feature/product/view/widgets/product_list_item.dart';
 
 class ProductsList extends ConsumerWidget {
   const ProductsList({super.key});

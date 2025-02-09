@@ -2,8 +2,8 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/feature/file/res/messages.dart';
-import 'package:flutter_riverpod_base/src/utils/config.dart';
+import 'package:rank_master/src/feature/file/res/messages.dart';
+import 'package:rank_master/src/utils/config.dart';
 import 'package:image_picker/image_picker.dart';
 
 final fileControllerProvider = Provider((ref) => FileController());

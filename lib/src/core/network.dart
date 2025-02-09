@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/global/providers/common_providers.dart';
-import 'package:flutter_riverpod_base/src/res/strings.dart';
-import 'package:flutter_riverpod_base/src/utils/config.dart';
+import 'package:rank_master/src/global/providers/common_providers.dart';
+import 'package:rank_master/src/res/strings.dart';
+import 'package:rank_master/src/utils/config.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:http/http.dart';
 

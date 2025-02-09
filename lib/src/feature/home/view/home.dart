@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_base/src/feature/product/view/products.dart';
-import 'package:flutter_riverpod_base/src/res/strings.dart';
+import 'package:rank_master/src/feature/product/view/products.dart';
+import 'package:rank_master/src/res/strings.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key? key}) : super(key: key);

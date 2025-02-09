@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/core/core.dart';
-import 'package:flutter_riverpod_base/src/feature/product/res/endpoints.dart';
-import 'package:flutter_riverpod_base/src/models/product.dart';
-import 'package:flutter_riverpod_base/src/res/strings.dart';
+import 'package:rank_master/src/core/core.dart';
+import 'package:rank_master/src/feature/product/res/endpoints.dart';
+import 'package:rank_master/src/models/product.dart';
+import 'package:rank_master/src/res/strings.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:http/http.dart';
 

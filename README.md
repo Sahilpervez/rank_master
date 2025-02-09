@@ -1,4 +1,4 @@
-# flutter_riverpod_base
+# rank_master
 
 A Starter project for flutter with riverpod and http preconfigured in architecture.
 

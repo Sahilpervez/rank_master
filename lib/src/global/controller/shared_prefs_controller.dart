@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/core/core.dart';
-import 'package:flutter_riverpod_base/src/global/repo/shared_prefs_repo.dart';
-import 'package:flutter_riverpod_base/src/models/user.dart';
+import 'package:rank_master/src/core/core.dart';
+import 'package:rank_master/src/global/repo/shared_prefs_repo.dart';
+import 'package:rank_master/src/models/user.dart';
 
 final sharedPrefsControllerPovider = Provider((ref){
   final repo = ref.watch(sharedPrefsRepoProvider);

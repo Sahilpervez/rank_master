@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_base/src/feature/home/view/home.dart';
-import 'package:flutter_riverpod_base/src/global/controller/init_controller.dart';
-import 'package:flutter_riverpod_base/src/global/providers/common_providers.dart';
-import 'package:flutter_riverpod_base/src/utils/config.dart';
+import 'package:rank_master/src/feature/home/view/home.dart';
+import 'package:rank_master/src/global/controller/init_controller.dart';
+import 'package:rank_master/src/global/providers/common_providers.dart';
+import 'package:rank_master/src/utils/config.dart';
 import 'package:go_router/go_router.dart';
 
 class SplashView extends ConsumerStatefulWidget {

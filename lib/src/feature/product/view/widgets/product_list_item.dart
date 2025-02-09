@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod_base/src/models/product.dart';
+import 'package:rank_master/src/models/product.dart';
 
 class ProductListItem extends StatelessWidget {
   const ProductListItem({super.key, required this.product});
