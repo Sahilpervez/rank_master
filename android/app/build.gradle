@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rank_master"
+    namespace = "com.zuulxu.rank_master"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

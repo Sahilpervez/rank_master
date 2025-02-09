@@ -1,4 +1,4 @@
-package com.example.rank_master
+package com.zuulxu.rank_master
 
 import io.flutter.embedding.android.FlutterActivity
 
